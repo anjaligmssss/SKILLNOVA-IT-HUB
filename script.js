@@ -67,3 +67,29 @@
     });
   });
 
+  document.addEventListener("DOMContentLoaded", () => {
+  const animatedElements = document.querySelectorAll(
+    ".hero-msg, #hero-img, .about, #services, .why-choose-us-container, .testimonials, .contact-section"
+  );
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationPlayState = "running";
+          entry.target.style.opacity = "1";
+          entry.target.style.transform = "translateY(0)";
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  animatedElements.forEach(el => {
+    // Pause animations by default
+    el.style.animationPlayState = "paused";
+    observer.observe(el);
+  });
+});
+
