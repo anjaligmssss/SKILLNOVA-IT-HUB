@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillNova IT Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <head>
+        <nav id="nav-bar">
+             <div id="company">
+                <img class="company-logo" src="./images/skill.jpg">
+                <p>SkillNova IT Hub</p>
+             </div>
+             <div id="menu">
+                <a class="option" href="#about">About</a>
+                <a class="option" href="#services">Services</a>
+                <a class="option" href="#contact">Contact</a>
+             </div>
+        </nav>
+    </head>
+
+    <div class="hero-sec"> 
+        <div class="hero-msg">
+            <h1>Smart Tech. Real Solutions</h1>
+            <p>At Skill Nova, we design, build, and deliver cutting-edge IT solutions that drive growth and solve real-world problems — faster, smarter, better.</p>
+            <button id="go-service">Explore Our Services</button>
+        </div>
+        <img id= "hero-img" src="./images/hero section.avif">
+    </div>
+
+    <div class="about" id="about">
+        <p class="about-def">ABOUT US</p>
+        <div class="about-msg">
+            <img  id="about-img" src="./images/about.avif">
+            <p>At Skill Nova, we build smart, scalable, and secure tech solutions tailored to modern business needs. From custom software development to full-stack digital transformation, we help companies turn ideas into impact with clean code and clear strategy.</p>
+        </div>
+    </div>
+
+    <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Custom Software Development</h3>
+        <p>Tailored applications to meet your business needs, from idea to execution.</p>
+      </div>
+      <div class="card">
+         <i class="fas fa-brain"></i>
+        <h3>AI & ML Solutions</h3>
+        <p>Empowering systems with smart algorithms and deep learning capabilities.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Mobile App Development</h3>
+        <p>iOS and Android apps designed to scale and perform flawlessly.</p>
+      </div>
+       <div class="card">
+        <i class="fas fa-cloud"></i>
+        <h3>Cloud Infrastructure</h3>
+        <p>Secure, scalable, and efficient cloud solutions for modern enterprises.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-pencil-ruler"></i>
+        <h3>UI/UX Design</h3>
+        <p>Clean, user-friendly design that balances aesthetics with usability.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <h3>Technical Consulting</h3>
+        <p>Expert guidance on technology choices, architecture, and scalable solutions.</p>
+      </div>
+    </div>
+    </section>
+
+    <div class="why-choose-us-container">
+  <h2 class="section-heading">Why Choose Us?</h2>
+  <div class="content-box">
+    <div class="image-container">
+      <img src="./images/why-us.avif" alt="Why Choose Us Image">
+    </div>
+    <div class="text-content">
+      <ul>
+        <li><strong>Tailored, Scalable Solutions</strong></li>
+        <li><strong>Expertise Across Modern Technologies</strong></li>
+        <li><strong>Design Meets Functionality</strong></li>
+        <li><strong>Client-Centric, Agile Approach</strong></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="testimonials">
+  <h2 class="testimonial-heading">&mdash; Our Happy Clients</h2>
+
+  <div class="test-container">
+    <div class="testimonial-card">
+      <img src="./images/women-vector.jpg" alt="Client 1">
+      <p>"Working with this team was a game-changer. They listened carefully, communicated clearly, and delivered exactly what we needed—on time and on budget."
+         — Priya S.
+         Product Manager, ZenTech Solutions</p>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="./images/men-vector.jpg" alt="Client 2">
+      <p>"From concept to launch, they made the entire process smooth and stress-free. The design is stunning and our users love the new interface."
+          — James L.
+          Co-Founder, BrightStart Apps</p>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="./images/women-vector.jpg" alt="Client 3">
+      <p>"What impressed me most was their attention to detail and deep understanding of scalable tech. I’d recommend them without hesitation."
+          — Maria D.
+          CTO, NovaEdge Systems</p>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="./images/men-vector.jpg" alt="Client 3">
+      <p>"They went above and beyond to ensure we were happy with the results. The agile approach and quick turnaround made all the difference."
+           — David K.
+           Operations Lead, SwiftLink Logistics</p>
+    </div>
+  </div>
+</div>
+
+
+  <section class="contact-section" id="contact">
+  <h2>Any question or remarks?</h2>
+  <form class="contact-form" action="your-server-endpoint" method="POST">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="company">Company</label>
+      <input type="text" id="company" name="company">
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit">Send Message</button>
+    </div>
+  </form>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- Company Name -->
+    <div class="footer-column">
+      <img class="company-logo" src="./images/skill.jpg">
+      <p class="company-name">SkillNova IT Hub </p>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#nav-bar">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Sector 628, Noida</p>
+      <p>skillnovaithub@email.com</p>
+    </div>
+   
+
+  </div>
+  
+   <!-- Social Icons -->
+  <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+   
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
