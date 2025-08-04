@@ -78,6 +78,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 60px 5%;
+  margin: 40px 0;
   background: linear-gradient(135deg, #90E0EF 0%, #CAF0F8 100%);
 }
 
@@ -140,6 +141,7 @@ body {
   animation: slideUp 1s ease forwards;
   opacity: 0;
   transform: translateY(30px);
+  margin: 40px 0;
 }
 
 .about-def {
@@ -182,6 +184,7 @@ body {
   text-align: center;
   animation: slideUp 1s ease forwards;
   opacity: 0;
+  margin: 40px 0;
   transform: translateY(30px);
 }
 
@@ -249,6 +252,7 @@ body {
   animation: slideUp 1s ease forwards;
   opacity: 0;
   transform: translateY(30px);
+   margin: 40px 0;
 }
 
 .section-heading {
@@ -316,7 +320,9 @@ body {
 /* TESTIMONIALS */
 
 .testimonials {
+  margin: 40px 0;
   background-color: #90E0EF;
+  border-radius: 10px;
   padding: 60px 5%;
   animation: slideUp 1s ease forwards;
   opacity: 0;
@@ -374,13 +380,14 @@ body {
 /* CONTACT SECTION */
 
 .contact-section {
+  margin: 40px auto;
   background-color: #CAF0F8;
-  padding: 60px 5%;
+  padding: 80px 5%;
   animation: slideUp 1s ease forwards;
   opacity: 0;
   transform: translateY(30px);
-  max-width: 700px;
-  margin: 0 auto 60px auto;
+  max-width: 500px;
+  /* margin: 0 auto 60px auto; */
   border-radius: 20px;
   box-shadow: 0 12px 35px rgba(0,116,182,0.2);
 }
